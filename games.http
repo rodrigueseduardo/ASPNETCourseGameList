@@ -1,0 +1,29 @@
+GET http://localhost:5047/games
+
+###
+GET http://localhost:5047/games/4
+
+###
+POST http://localhost:5047/games
+Content-Type: application/json
+
+{
+    "name": "Super Metroid",
+    "genre": "Platform, Metroidvania",
+    "price": 600.00,
+    "releaseDate": "1994-03-19"
+}
+
+###
+PUT http://localhost:5047/games/5
+Content-Type: application/json
+
+{
+    "name": "The Legend Of Zelda: Ocarina Of Time (Grey)",
+    "genre": "Adventure, RPG",
+    "price": 149.99,
+    "releaseDate": "1998-11-21"
+}
+
+###
+DELETE http://localhost:5047/games/2
