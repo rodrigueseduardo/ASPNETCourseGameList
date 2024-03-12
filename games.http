@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
     "name": "Super Metroid",
-    "genre": "Platform, Metroidvania",
+    "genreId": 4,
     "price": 600.00,
     "releaseDate": "1994-03-19"
 }
