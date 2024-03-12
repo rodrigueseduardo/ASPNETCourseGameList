@@ -8,10 +8,10 @@ POST http://localhost:5047/games
 Content-Type: application/json
 
 {
-    "name": "Super Metroid",
+    "name": "Super Mario 64",
     "genreId": 4,
-    "price": 600.00,
-    "releaseDate": "1994-03-19"
+    "price": 150.00,
+    "releaseDate": "1996-06-23"
 }
 
 ###
